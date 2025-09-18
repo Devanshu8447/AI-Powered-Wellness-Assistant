@@ -1,0 +1,80 @@
+.env
+streamlit
+langchain
+langchain-community
+langchain-huggingface
+huggingface_hub
+python-dotenv
+azure-ai-inference
+azure-core
+langgraph
+matplotlib
+langchain-groq
+duckduckgo-search
+spotipy
+# ==================
+# OS / Editor Files
+# ==================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.log
+*.tmp
+*.bak
+*.old
+.vscode/
+.idea/
+*.code-workspace
+
+# ==================
+# Python
+# ==================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+.venv/
+env/
+venv/
+.Python
+
+# ==================
+# Node.js
+# ==================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+
+# ==================
+# Build / Dist
+# ==================
+dist/
+build/
+out/
+coverage/
+*.egg-info/
+.eggs/
+
+# ==================
+# Environment / Secrets
+# ==================
+.env
+.env.*
+*.secret
+*.key
+*.pem
+
+# ==================
+# Misc
+# ==================
+*.tar.gz
+*.zip
+*.rar
+*.7z

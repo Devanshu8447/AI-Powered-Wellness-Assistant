@@ -1,0 +1,13 @@
+streamlit
+langchain
+langchain-community
+langchain-huggingface
+huggingface_hub
+python-dotenv
+azure-ai-inference
+azure-core
+langgraph
+matplotlib
+langchain-groq
+duckduckgo-search
+spotipy
