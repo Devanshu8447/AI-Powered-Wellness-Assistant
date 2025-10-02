@@ -12,6 +12,7 @@ matplotlib
 langchain-groq
 duckduckgo-search
 spotipy
+
 # ==================
 # OS / Editor Files
 # ==================
@@ -36,9 +37,10 @@ __pycache__/
 *.pyd
 *.sqlite3
 *.db
-.venv/
-env/
-venv/
+
+# Add your virtual environment folder
+myenv/
+
 .Python
 
 # ==================

@@ -16,7 +16,8 @@ from langchain_core.messages import (
     SystemMessage as LCSystemMessage,
 )
 
-from langchain_groq import ChatGroq
+# from langchain_groq import ChatGroq
+from langchain_google_genai import ChatGoogleGenerativeAI
 
 
 # ========================
@@ -47,7 +48,8 @@ class ChatState(TypedDict):
 
 
 # ---- Initialize LLM ----
-llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0.7, max_retries=2)
+# llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0.7, max_retries=2)
+llm = ChatGoogleGenerativeAI(model="gemini-2.5-pro")
 
 
 # ---- Chat node ----

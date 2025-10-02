@@ -4,7 +4,7 @@ import json
 import matplotlib.pyplot as plt
 import re
 from dotenv import load_dotenv
-from langchain_groq import ChatGroq
+#from langchain_groq import ChatGroq
 
 os.environ["Dietician Agent"] = "Dietician Agent"
 
@@ -12,7 +12,10 @@ os.environ["Dietician Agent"] = "Dietician Agent"
 load_dotenv()
 
 # Initialize the Groq LLM
-llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0.7, max_retries=2)
+#llm = ChatGroq(model="llama-3.1-8b-instant", temperature=0.7, max_retries=2)
+from langchain_google_genai import ChatGoogleGenerativeAI
+
+llm = ChatGoogleGenerativeAI(model="gemini-2.5-pro")
 
 
 def calculate_bmr(age, gender, height, weight):

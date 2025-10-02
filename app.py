@@ -5,7 +5,7 @@ from agents.mental_health_agent import run_mental_health_agent
 
 st.set_page_config(page_title="Wellness Clinic AI", layout="centered")
 
-st.title("🏥 Wellness Clinic AI")
+st.title("AI-Powered Wellness Assistant")
 st.subheader("Choose a service below:")
 
 option = st.selectbox(

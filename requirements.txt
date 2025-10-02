@@ -11,3 +11,6 @@ matplotlib
 langchain-groq
 duckduckgo-search
 spotipy
+langgraph-checkpoint-sqlite
+langchain-google-genai
+googlemaps
